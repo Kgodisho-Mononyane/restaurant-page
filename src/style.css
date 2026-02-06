@@ -24,6 +24,15 @@ header {
     justify-content: center;
 }
 
+nav {}
+
+.nav-btn {
+    border: none;
+    border-radius: 10%;
+    height: 2em;
+    width: 4em;
+}
+
 /* BODY */
 
 
@@ -33,5 +42,7 @@ footer {
     background-color: green;
     color: white;
     display: flex;
+    height: 5vh;
     justify-content: center;
+    align-items: center;
 }
