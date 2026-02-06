@@ -33,6 +33,14 @@ nav {}
     width: 4em;
 }
 
+.nav-btn:hover {
+    background-color: blue;
+}
+
+.nav-btn:active {
+    background-color: green;
+}
+
 /* BODY */
 
 
