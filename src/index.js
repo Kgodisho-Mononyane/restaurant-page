@@ -1,4 +1,8 @@
 import "./style.css";
-import {greeting} from "./greeting.js";
+import {home} from "./home.js";
+import {menu} from "./menu.js";
+import {contact} from "./contact.js";
 
-alert(greeting)
+console.log(home)
+console.log(menu)
+console.log(contact)
