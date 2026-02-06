@@ -1,3 +1,37 @@
-body {
-    background-color: lightblue;
+* {
+    margin: 0;
+    padding: 0;
+    --background-blue: #1F2937;
+    --background-blue-hover: #3f4f66;
+    --background-blue-active: #647894;
+    --background-gray: #dfdde0;
+    --background-white: white;
+    --background-black: black;
+
+    --display: 12vh;
+    --spacing: 1.5em;
+}
+
+/* HEADER */
+header {
+    background-color: var(--background-blue);
+    color: var(--background-white);
+    width: 100vw;
+    height: var(--display);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BODY */
+
+
+
+/* FOOTER */
+footer {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
