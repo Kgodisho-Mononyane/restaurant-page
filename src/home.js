@@ -1,5 +1,3 @@
-import { createElement } from "react";
-
 const home = "Home page";
 
 function displayHome() {
@@ -13,7 +11,11 @@ function displayHome() {
     let homeTitle = createElement("h1");
     homeTitle.textContent = "Add Home title here";
     homeTitle.id.add("home-title");
-    homeTitle.appendChild(homeContainer)
+    homeTitle.appendChild(homeContainer);
+
+    let homeContent = createElement("div");
+    homeContent.id.add("home-content");
+    content.appendChild(homeContent)
 }
 
 export {home}
