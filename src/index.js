@@ -1,5 +1,4 @@
 import "./style.css";
 import {greeting} from "./greeting.js";
 
-alert(greeting);
-alert("testing")
+alert(greeting)
