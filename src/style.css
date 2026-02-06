@@ -42,7 +42,10 @@ nav {}
 }
 
 /* BODY */
-
+#content {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* FOOTER */
@@ -54,3 +57,19 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* HOME */
+#home-container {
+    background-color: pink;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* MENU */
+
+
+/* CONTACT */
