@@ -27,18 +27,20 @@ header {
 nav {}
 
 .nav-btn {
-    border: none;
+    border: 1px solid var(--background-gray);
     border-radius: 10%;
     height: 2em;
     width: 4em;
+    background-color: var(--background-blue);
+    color: var(--background-white)
 }
 
 .nav-btn:hover {
-    background-color: blue;
+    background-color: var(--background-blue-hover);
 }
 
 .nav-btn:active {
-    background-color: green;
+    background-color: var(--background-blue-active);
 }
 
 /* BODY */
