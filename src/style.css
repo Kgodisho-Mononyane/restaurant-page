@@ -24,6 +24,10 @@ header {
     justify-content: center;
 }
 
+#page-title {
+    font-size: 3em;
+}
+
 nav {}
 
 .nav-btn {
@@ -60,7 +64,7 @@ nav {}
 }
 
 #home-title {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 #home-content {
@@ -72,6 +76,14 @@ nav {}
     align-items: center;
     border-radius: 5%;
 
+}
+
+#book-btn {
+    border: 1px solid var(--background-white);
+    border: 1px solid var(--background-gray);
+    border-radius: 10%;
+    height: 2.5em;
+    width: 5em;
 }
 
 
