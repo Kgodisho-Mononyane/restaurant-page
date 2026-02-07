@@ -58,10 +58,10 @@ nav {}
 
 /* HOME */
 #home-container {
-    background-color: pink;
+    background-color: var(--background-gray);
     width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -71,13 +71,14 @@ nav {}
 }
 
 #home-content {
-    background-color: blue;
-    width: 90vw;
+    background-color: var(--background-white);
+    width: 80vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 1rem;
 
 }
 
