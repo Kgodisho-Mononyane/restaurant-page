@@ -9,6 +9,7 @@ import {contact} from "./contact.js";
     const homeBtn = document.querySelector("#home-btn");
     const menuBtn = document.querySelector("#menu-btn");
     const contactBtn = document.querySelector("#contact-btn");
+    const bookBtn = document.querySelector("#book-btn")
 
     homeBtn.addEventListener("click", () => {
         console.log("Home button clicked");
@@ -20,5 +21,9 @@ import {contact} from "./contact.js";
 
     contactBtn.addEventListener("click", () => {
         console.log("Contact button clicked");
+    });
+
+    bookBtn.addEventListener("click", () => {
+        console.log("Book button clicked");
     });
 })();
