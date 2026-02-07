@@ -47,11 +47,11 @@ nav {
 }
 
 .nav-btn:hover {
-    background-color: var(--background-blue-hover);
+    background-color: var(--orange);
 }
 
 .nav-btn:active {
-    background-color: var(--background-blue-active);
+    background-color: var(--orange-hover);
 }
 
 /* BODY */
@@ -72,6 +72,11 @@ nav {
 
 #home-title {
     font-size: 2em;
+    margin-top: 1.5rem;
+}
+
+#home-subtitle {
+    margin-bottom: 2rem;
 }
 
 #home-content {
