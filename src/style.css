@@ -72,7 +72,7 @@ nav {}
 
 #home-content {
     background-color: var(--background-white);
-    width: 80vw;
+    width: 50vw;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -83,12 +83,13 @@ nav {}
 }
 
 #book-btn {
-    border: 1px solid var(--background-white);
+    border: none;
     background-color: var(--orange);
     color: var(--background-white);
     border-radius: 10%;
-    height: 2.5em;
-    width: 5em;
+    height: 5rem;
+    width: 10rem;
+    font-size: 1.5em;
 }
 
 #book-btn:hover {
