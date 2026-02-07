@@ -8,6 +8,7 @@
     --orange-hover: #d36314;
     --orange-active: #b15412;
     --background-gray: #dfdde0;
+    --dark-gray: #535353;
     --background-white: white;
     --background-black: black;
 
@@ -77,6 +78,7 @@ nav {
 
 #home-subtitle {
     margin-bottom: 2rem;
+    color: var(--dark-gray)
 }
 
 #home-content {
@@ -88,7 +90,11 @@ nav {
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
+}
 
+#home-img {
+    width: 90%;
+    height: auto;
 }
 
 #book-btn {
