@@ -47,17 +47,6 @@ nav {}
     justify-content: center;
 }
 
-
-/* FOOTER */
-footer {
-    background-color: green;
-    color: white;
-    display: flex;
-    height: 5vh;
-    justify-content: center;
-    align-items: center;
-}
-
 /* HOME */
 #home-container {
     background-color: pink;
