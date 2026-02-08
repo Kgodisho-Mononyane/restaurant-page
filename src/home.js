@@ -1,6 +1,5 @@
-const home = "Home page";
 
-function displayHome() {
+export function displayHome() {
     const content = document.querySelector("#content")
     content.innerHTML = "";
 
@@ -17,5 +16,3 @@ function displayHome() {
     homeContent.id.add("home-content");
     content.appendChild(homeContent)
 }
-
-export {home}

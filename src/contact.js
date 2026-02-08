@@ -1,3 +1,5 @@
-const contact = "Contact page";
+export function displayContact() {
+    const content = document.querySelector("#content");
 
-export {contact}
+    content.innerHTML = ""
+}

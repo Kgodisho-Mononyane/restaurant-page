@@ -1,3 +1,5 @@
-const menu = "menu page";
+export function displayMenu() {
+    const content = document.querySelector("#content");
 
-export {menu}
+    content.innerHTML = ""
+}

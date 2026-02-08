@@ -1,7 +1,7 @@
 import "./style.css";
-import {home} from "./home.js";
-import {menu} from "./menu.js";
-import {contact} from "./contact.js";
+import {displayHome} from "./home.js";
+import {displayMenu} from "./menu.js";
+import {displayContact} from "./contact.js";
 
 
 
@@ -13,14 +13,17 @@ import {contact} from "./contact.js";
 
     homeBtn.addEventListener("click", () => {
         console.log("Home button clicked");
+        displayHome();
     });
 
     menuBtn.addEventListener("click", () => {
         console.log("Menu button clicked");
+        displayMenu();
     });
 
     contactBtn.addEventListener("click", () => {
         console.log("Contact button clicked");
+        displayContact();
     });
 
     bookBtn.addEventListener("click", () => {
