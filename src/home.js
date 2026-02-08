@@ -1,3 +1,5 @@
+import homeImage from "./assets/images/home-restaurant.jpg"
+
 export function displayHome() {
     const content = document.querySelector("#content")
     content.innerHTML = "";
@@ -22,6 +24,10 @@ export function displayHome() {
     homeContainer.appendChild(homeContent)
 
     /*add image dynamic styling here*/
+    const homeImg = document.createElement("img");
+    homeImg.src = homeImage;
+    homeImg.setAttribute("id", "home-img");
+    homeContent.appendChild(homeImg);
 
     let bookBtn = document.createElement("button");
     bookBtn.textContent = "Book Now";
@@ -35,6 +41,7 @@ export function displayHome() {
     let operatingHoursHeader = document.createElement("h2");
     operatingHoursHeader.textContent = "Operating hours";
     operatingHoursHeader.setAttribute("id", "operating-hours-header");
+    operatingHoursContainer.appendChild(operatingHoursHeader)
 
     let monFri = document.createElement("h3");
     monFri.textContent = "Monday - Friday";
@@ -49,10 +56,10 @@ export function displayHome() {
     operatingHoursContainer.appendChild(monFriTimes);
 
     let satSun = document.createElement("h3");
-    monFri.textContent = "Saturday & Sunday";
-    monFri.setAttribute("class", "operating-hours-days");
-    monFri.setAttribute("id", "sat-sun")
-    operatingHoursContainer.appendChild(monFri);
+    satSun.textContent = "Saturday & Sunday";
+    satSun.setAttribute("class", "operating-hours-days");
+    satSun.setAttribute("id", "sat-sun")
+    operatingHoursContainer.appendChild(satSun);
 
     let satSunTimes = document.createElement("p");
     satSunTimes.textContent = "9:00 - 23:00";
