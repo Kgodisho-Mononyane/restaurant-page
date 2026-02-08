@@ -81,7 +81,7 @@ nav {
     color: var(--dark-gray)
 }
 
-#home-content {
+#home-content, #menu-content {
     background-color: var(--background-white);
     width: 50vw;
     height: auto-fill;
@@ -94,7 +94,7 @@ nav {
     padding-bottom: 1rem;
 }
 
-#home-img {
+#home-img, #menu-img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
