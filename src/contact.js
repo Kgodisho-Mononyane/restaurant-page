@@ -7,12 +7,12 @@ export function displayContact() {
     content.appendChild(contactContainer);
 
     let contactTitle = document.createElement("h2");
-    contactTitle.textContent = "Contact Header Text";
+    contactTitle.textContent = "GET IN TOUCH";
     contactTitle.setAttribute("id", "contact-title");
     contactContainer.appendChild(contactTitle);
 
     let contactSubtitle = document.createElement("h3");
-    contactSubtitle.textContent = "Contact Subtitle Text";
+    contactSubtitle.textContent = "We would love to hear from you!";
     contactSubtitle.setAttribute("id", "contact-subtitle");
     contactContainer.appendChild(contactSubtitle);
 }
