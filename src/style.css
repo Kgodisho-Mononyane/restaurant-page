@@ -144,6 +144,19 @@ nav {
 }
 
 /* MENU */
+#menu-content {
+    display: grid;
+    /* grid-template-columns: ; */
+    grid-template-columns: repeat(4, 2fr);
+    gap: 1rem;
+    border-radius: 10%;
+}
+
+.menu-item {
+    background-color: var(--background-white);
+    height: 10em;
+    width: 10em;
+}
 
 
 /* CONTACT */
