@@ -14,5 +14,5 @@ export function displayMenu() {
     let menuSubtitle = document.createElement("h3");
     menuSubtitle.textContent = "Menu Subtitle Text";
     menuSubtitle.setAttribute("id", "menu-subtitle");
-    homeContainer.appendChild(menuSubtitle);
+    menuContainer.appendChild(menuSubtitle);
 }
