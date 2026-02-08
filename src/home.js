@@ -1,5 +1,3 @@
-import { createElement } from "react";
-
 export function displayHome() {
     const content = document.querySelector("#content")
     content.innerHTML = "";
