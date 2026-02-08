@@ -9,12 +9,12 @@ export function displayHome() {
     content.appendChild(homeContainer);
 
     let homeTitle = document.createElement("h2");
-    homeTitle.textContent = "WELCOME TO SHISANYAMA";
+    homeTitle.textContent = "WELCOME TO MONONYANE";
     homeTitle.setAttribute("id", "home-title");
     homeContainer.appendChild(homeTitle);
 
     let homeSubtitle = document.createElement("h3");
-    homeSubtitle.textContent = "The best Shisanyama restaurant in Mzansi.";
+    homeSubtitle.textContent = "The best Pizza restaurant in Mzansi.";
     homeSubtitle.setAttribute("id", "home-subtitle");
     homeContainer.appendChild(homeSubtitle);
     
