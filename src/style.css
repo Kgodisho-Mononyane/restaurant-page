@@ -62,7 +62,7 @@ nav {
 }
 
 /* HOME */
-#home-container {
+#home-container, #menu-container, #contact-container {
     background-color: var(--background-gray);
     width: 100vw;
     height: auto-fill;
@@ -71,12 +71,12 @@ nav {
     flex-direction: column;
 }
 
-#home-title {
+#home-title, #menu-title, #contact-title {
     font-size: 2em;
     margin-top: 1.5rem;
 }
 
-#home-subtitle {
+#home-subtitle, #menu-subtitle, #contact-subtitle {
     margin-bottom: 2rem;
     color: var(--dark-gray)
 }
