@@ -28,5 +28,6 @@ import {displayContact} from "./contact.js";
 
     bookBtn.addEventListener("click", () => {
         console.log("Book button clicked");
+        displayContact();
     });
 })();

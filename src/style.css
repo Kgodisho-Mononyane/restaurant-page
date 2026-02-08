@@ -118,9 +118,27 @@ nav {
     background-color: var(--orange-active);
 }
 
+#operating-hours-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #operating-hours-header {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+}
+
+.operating-hours-days {
+    color: var(--orange);
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.operating-hours-times {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 /* MENU */
