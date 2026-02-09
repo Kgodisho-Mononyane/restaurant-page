@@ -1,5 +1,4 @@
-import contactImage from "./assets/images/contact-restaurant.jpg"
-
+import contactImage from "./assets/images/contact-restaurant.jpg";
 
 export function displayContact() {
     const content = document.querySelector("#content");
