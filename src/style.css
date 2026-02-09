@@ -81,7 +81,7 @@ nav {
     color: var(--dark-gray)
 }
 
-#home-content, #menu-content {
+#home-content, #menu-content, #contact-content {
     background-color: var(--background-white);
     width: 50vw;
     height: auto-fill;
@@ -94,7 +94,7 @@ nav {
     padding-bottom: 1rem;
 }
 
-#home-img, #menu-img {
+#home-img, #menu-img, #contact-img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
@@ -143,20 +143,14 @@ nav {
     font-weight: bold;
 }
 
-/* MENU */
-#menu-items-container {
+#menu-items-container, #contact-items-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.menu-items-header {
+.menu-items-header, .contact-heading {
     color: var(--orange);
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
-
-
-
-
-/* CONTACT */
